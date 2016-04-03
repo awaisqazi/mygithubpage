@@ -1,0 +1,181 @@
+@font-face {
+  font-family: Prez;
+  src: url(../AccidentalPresidency.ttf);
+}
+
+body#index {
+  background-color: #2c3e50;
+  background-image: url(../img/Awais.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  .container {
+    .content {
+      height: 100vh;
+      position: relative;
+      bottom: 10vh;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      flex-direction: column;
+      .hero {
+        margin: 15px 0;
+        display: block;
+        transition: 300ms;
+        h1 {
+          padding: 5px 10px;
+          background-color: #e74c3c;
+          color: #ecf0f1;
+          font-family: "Prez", sans-serif;
+          font-size: 90px;
+          display: inline;
+          transition: 300ms;
+        }
+        h2 {
+          padding: 5px 10px;
+          background-color: #ecf0f1;
+          color: #2980b9;
+          font-size: 70px;
+          display: inline;
+          font-family: "Prez", sans-serif;
+          transition: 300ms;
+        }
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          display: inline;
+          margin-right: 5px;
+          a {
+            margin: 0;
+            text-decoration: none;
+            color: #ecf0f1;
+            background-color: #2980b9;
+            padding: 5px;
+            font-size: 50px;
+            transition: 300ms;
+            font-family: "Prez", sans-serif;
+            &:hover {
+              background-color: #ecf0f1;
+              color: #2980b9;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) and (min-width: 540px) {
+  .hero {
+    margin: 10px 0 !important;
+    h1 {
+      font-size: 70px !important;
+    }
+    h2 {
+      font-size: 50px !important;
+    }
+    a {
+      font-size: 40px !important;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .hero {
+    margin: 8px 0 !important;
+    h1 {
+      font-size: 60px !important;
+    }
+    h2 {
+      font-size: 40px !important;
+    }
+    a {
+      font-size: 30px !important;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .hero {
+    margin: 8px 0 !important;
+    h1 {
+      font-size: 40px !important;
+    }
+    h2 {
+      font-size: 30px !important;
+    }
+    li {
+      margin-right: 2px !important;
+      a {
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+/////////////////////////////////////////////////////
+
+.pagehead {
+  background-image: url(../img/blur.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  width: 100%;
+  background-color: #2b2b2b;
+  .row {
+    height: 100%;
+  }
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    h1 {
+      font-family: "Prez", sans-serif;
+      color: #ecf0f1;
+      font-size: 55px;
+      background-color: #e74c3c;
+      padding: 5px 250px;
+      letter-spacing: 5px;
+      margin: 50px 0;
+    }
+    .link {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #ecf0f1;
+        background-color: #2980b9;
+        padding: 5px;
+        font-size: 35px;
+        transition: 300ms;
+        font-family: "Prez", sans-serif;
+        &:hover {
+          background-color: #ecf0f1;
+          color: #2980b9;
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////////////////////////////
+body#vision {
+  background-color: red;
+}
+body#issues {
+  background-color: blue;
+}
+body#about {
+  background-color: green;
+}
+body#htv {
+  background-color: yellow;
+}

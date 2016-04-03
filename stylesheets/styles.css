@@ -1,0 +1,208 @@
+@font-face {
+  font-family: Prez;
+  src: url(../AccidentalPresidency.ttf);
+}
+/* line 6, ../sass/styles.scss */
+body#index {
+  background-color: #2c3e50;
+  background-image: url(../img/Awais.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+/* line 13, ../sass/styles.scss */
+body#index .container .content {
+  height: 100vh;
+  position: relative;
+  bottom: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+/* line 21, ../sass/styles.scss */
+body#index .container .content .hero {
+  margin: 15px 0;
+  display: block;
+  transition: 300ms;
+}
+/* line 25, ../sass/styles.scss */
+body#index .container .content .hero h1 {
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  font-family: "Prez", sans-serif;
+  font-size: 90px;
+  display: inline;
+  transition: 300ms;
+}
+/* line 34, ../sass/styles.scss */
+body#index .container .content .hero h2 {
+  padding: 5px 10px;
+  background-color: #ecf0f1;
+  color: #2980b9;
+  font-size: 70px;
+  display: inline;
+  font-family: "Prez", sans-serif;
+  transition: 300ms;
+}
+/* line 44, ../sass/styles.scss */
+body#index .container .content ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 47, ../sass/styles.scss */
+body#index .container .content ul li {
+  display: inline;
+  margin-right: 5px;
+}
+/* line 50, ../sass/styles.scss */
+body#index .container .content ul li a {
+  margin: 0;
+  text-decoration: none;
+  color: #ecf0f1;
+  background-color: #2980b9;
+  padding: 5px;
+  font-size: 50px;
+  transition: 300ms;
+  font-family: "Prez", sans-serif;
+}
+/* line 59, ../sass/styles.scss */
+body#index .container .content ul li a:hover {
+  background-color: #ecf0f1;
+  color: #2980b9;
+}
+
+@media (max-width: 660px) and (min-width: 540px) {
+  /* line 71, ../sass/styles.scss */
+  .hero {
+    margin: 10px 0 !important;
+  }
+  /* line 73, ../sass/styles.scss */
+  .hero h1 {
+    font-size: 70px !important;
+  }
+  /* line 76, ../sass/styles.scss */
+  .hero h2 {
+    font-size: 50px !important;
+  }
+  /* line 79, ../sass/styles.scss */
+  .hero a {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 540px) {
+  /* line 86, ../sass/styles.scss */
+  .hero {
+    margin: 8px 0 !important;
+  }
+  /* line 88, ../sass/styles.scss */
+  .hero h1 {
+    font-size: 60px !important;
+  }
+  /* line 91, ../sass/styles.scss */
+  .hero h2 {
+    font-size: 40px !important;
+  }
+  /* line 94, ../sass/styles.scss */
+  .hero a {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 430px) {
+  /* line 101, ../sass/styles.scss */
+  .hero {
+    margin: 8px 0 !important;
+  }
+  /* line 103, ../sass/styles.scss */
+  .hero h1 {
+    font-size: 40px !important;
+  }
+  /* line 106, ../sass/styles.scss */
+  .hero h2 {
+    font-size: 30px !important;
+  }
+  /* line 109, ../sass/styles.scss */
+  .hero li {
+    margin-right: 2px !important;
+  }
+  /* line 111, ../sass/styles.scss */
+  .hero li a {
+    font-size: 18px !important;
+  }
+}
+/* line 120, ../sass/styles.scss */
+.pagehead {
+  background-image: url(../img/blur.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  width: 100%;
+  background-color: #2b2b2b;
+}
+/* line 127, ../sass/styles.scss */
+.pagehead .row {
+  height: 100%;
+}
+/* line 130, ../sass/styles.scss */
+.pagehead .links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* line 137, ../sass/styles.scss */
+.pagehead .links h1 {
+  font-family: "Prez", sans-serif;
+  color: #ecf0f1;
+  font-size: 55px;
+  background-color: #e74c3c;
+  padding: 5px 250px;
+  letter-spacing: 5px;
+  margin: 50px 0;
+}
+/* line 146, ../sass/styles.scss */
+.pagehead .links .link {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+/* line 151, ../sass/styles.scss */
+.pagehead .links .link a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ecf0f1;
+  background-color: #2980b9;
+  padding: 5px;
+  font-size: 35px;
+  transition: 300ms;
+  font-family: "Prez", sans-serif;
+}
+/* line 160, ../sass/styles.scss */
+.pagehead .links .link a:hover {
+  background-color: #ecf0f1;
+  color: #2980b9;
+}
+
+/* line 170, ../sass/styles.scss */
+body#vision {
+  background-color: red;
+}
+
+/* line 173, ../sass/styles.scss */
+body#issues {
+  background-color: blue;
+}
+
+/* line 176, ../sass/styles.scss */
+body#about {
+  background-color: green;
+}
+
+/* line 179, ../sass/styles.scss */
+body#htv {
+  background-color: yellow;
+}
