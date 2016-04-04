@@ -38,8 +38,12 @@ body#index {
   background-image: url(../img/Awais.jpg);
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  max-height: 100vh;
   .container {
+    visibility: hidden;
+    &.show {
+      visibility: visible !important;
+    }
     .content {
       height: 100vh;
       position: relative;
