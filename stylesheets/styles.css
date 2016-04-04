@@ -283,7 +283,7 @@ body#vision .content .row h1 {
 }
 /* line 264, ../sass/styles.scss */
 body#vision .content .row p {
-  font-family: "Prez", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #2b2b2b;
   letter-spacing: 1px;
@@ -306,7 +306,7 @@ body#issues .content .row h2 {
 }
 /* line 284, ../sass/styles.scss */
 body#issues .content .row p {
-  font-family: "Prez", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #2b2b2b;
   letter-spacing: 1px;
@@ -334,12 +334,12 @@ body#about .content .row h2 {
 }
 /* line 308, ../sass/styles.scss */
 body#about .content .row li {
-  font-family: "Prez", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 /* line 312, ../sass/styles.scss */
 body#about .content .row p {
-  font-family: "Prez", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #2b2b2b;
   letter-spacing: 1px;
@@ -356,7 +356,7 @@ body#htv .content .row {
 }
 /* line 327, ../sass/styles.scss */
 body#htv .content .row p {
-  font-family: "Prez", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #2b2b2b;
   letter-spacing: 1px;
