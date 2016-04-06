@@ -188,30 +188,16 @@ body#index {
 
 /////////////////////////////////////////////////////
 
-.pagehead {
+#pagehead {
   padding: 50px 0;
   background-image: url(../img/blur.jpg);
   background-size: cover;
   background-position: center center;
-  width: 100%;
   background-color: #2b2b2b;
-  .row {
-    width: 100%;
-  }
-  .col-xs-12 {
-    padding: 0;
-    width: 100%;
-  }
-  h1 {
-    text-align: center;
-    background-color: #e74c3c;
-    color: #ecf0f1;
-    font-family: "Prez", sans-serif;
-    font-size: 90px;
-    transition: 300ms;
-    letter-spacing: 5px;
-  }
-  .link {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  .nav {
     text-align: center;
     a {
       white-space: nowrap;
@@ -223,32 +209,31 @@ body#index {
       font-size: 50px;
       transition: 300ms;
       font-family: "Prez", sans-serif;
-      &:hover {
-        background-color: #ecf0f1;
-        color: #2980b9;
+      &.selected {
+        background-color: #e74c3c;
+      }
+      &.link {
+        &:hover {
+          background-color: #ecf0f1;
+          color: #2980b9;
+        }
       }
     }
   }
 }
 
-@media (max-width: 790px) and (min-width: 550px) {
-  .pagehead {
-    h1 {
-      font-size: 50px !important;
-    }
+@media (max-width: 700px) and (min-width: 460px) {
+  #pagehead {
     a {
       font-size: 30px !important;
     }
   }
 }
 
-@media (max-width: 550px) and (min-width: 0px) {
-  .pagehead {
-    h1 {
-      font-size: 30px !important;
-    }
+@media (max-width: 460px) {
+  #pagehead {
     a {
-      font-size: 15px !important;
+      font-size: 16px !important;
     }
   }
 }
